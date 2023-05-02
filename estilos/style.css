@@ -71,3 +71,39 @@ h1 {
 #formulario p {
   font-size: 0.8em;
 }
+
+input[type=submit] {
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  background-color: var(--clr-itp-6);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: var(--clr-itp-primary);
+}
+
+.botao {
+  background-color: var(--clr-itp-3);
+  color: var(--clr-itp-primary);
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  padding-top: 7px;
+  margin-top: 5px;
+  border: 1px solid var(--clr-itp-6);
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+.botao span {
+  font-size: 0.8em;
+}
