@@ -1,10 +1,12 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* configuração para tablet */
   body {
     background-image: linear-gradient(to top, #453115, #b4a464);
   }
 
   #login {
     width: 80vw;
+    height: 305px;
   }
   #imagem {
     float: left;
@@ -19,11 +21,14 @@
 }
 
 @media screen and (min-width: 992px) {
+/* configuração para telas maiores */
   body {
     background-image: linear-gradient(to top,  #453115, #b4a464);
   }
   #login {
     width: 950px;
+    height: 380px;
+   
   }
 
   #imagem {
@@ -41,7 +46,8 @@
     font-size: 2em;
   }
   #formulario p {
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 30px 0px;
   }
 }
 
