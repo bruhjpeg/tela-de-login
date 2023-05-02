@@ -72,7 +72,20 @@ h1 {
   font-size: 0.8em;
 }
 
-input[type=submit] {
+.campo {
+  background-color: var(--clr-itp-primary);
+  width: 100%;
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+label {
+  display: none;
+}
+
+input[type='submit'] {
   display: block;
   font-size: 1em;
   width: 100%;
@@ -84,12 +97,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-background-color: var(--clr-itp-primary);
+input[type='submit']:hover {
+  background-color: var(--clr-itp-primary);
 }
 
 .botao {
-  background-color: var(--clr-itp-3);
+  background-color: var(--clr-itp-5);
   color: var(--clr-itp-primary);
   display: block;
   text-align: center;
@@ -97,13 +110,16 @@ background-color: var(--clr-itp-primary);
   width: 100%;
   height: 40px;
   padding-top: 7px;
-  margin-top: 5px;
+  margin-top: 7px;
   border: 1px solid var(--clr-itp-6);
   border-radius: 5px;
   text-decoration: none;
-
 }
 
 .botao span {
   font-size: 0.8em;
+}
+
+.botao:hover {
+  background-color: var(--clr-itp-4);
 }
