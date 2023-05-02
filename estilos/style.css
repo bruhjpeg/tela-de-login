@@ -13,14 +13,16 @@
 }
 
 * {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
-body, html {
-  background-color:var(--clr-itp-primary);
+body,
+html {
+  background-color: var(--clr-itp-primary);
   height: 100vh;
   width: 100vw;
 }
@@ -38,20 +40,19 @@ main {
   transform: translate(-50%, -50%);
   overflow: hidden;
 
-
-  background-color:var(--clr-itp-5);
+  background-color: var(--clr-itp-5);
   width: 270px;
   height: 550px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449);
 
-  transition: width .3s, height .3s;
+  transition: width 0.3s, height 0.3s;
   transition-timing-function: ease;
 }
 
 #imagem {
   display: block;
-  background: var(--clr-itp-primary)url(../img/casa.jpg) no-repeat;
+  background: var(--clr-itp-primary) url(../img/casa.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 230px;
@@ -60,4 +61,13 @@ main {
 #formulario {
   display: block;
   padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#formulario p {
+  font-size: 0.8em;
 }
